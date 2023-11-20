@@ -1,6 +1,7 @@
 import Rectangle from "./rectangle.js"
 import Circle from "./circle.js"
 
+console.log('load')
 const canvas = /** @type { HTMLCanvasElement } */ (document.getElementById('canvas1'))
 const ctx = /** @type { CanvasRenderingContext2D } */ (canvas.getContext('2d'))
 const CANVAS_WIDTH = canvas.width = 800
